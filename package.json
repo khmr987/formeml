@@ -1,0 +1,12 @@
+{
+  "name": "formeml",
+  "version": "1.0.0",
+  "description": "Form that sends data directly to an email address.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
