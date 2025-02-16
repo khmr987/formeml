@@ -21,9 +21,9 @@ const transporter = nodemailer.createTransport({
 
                                     const mailOptions = {
                                             from: process.env.EMAIL,
-                                                    to: process.env.EMAIL,
+                                                    to: process.env.EMAILT,
                                                             subject: `New Contact Form Submission from ${name}`,
-                                                                    text: `Name: ${name}\nEmail: ${email}\nMessage: ${message}`,
+                                                                    text: `Name: ${name}\nPhone: ${email}\nMessage: ${message}`,
                                                                         };
 
                                                                             try {
