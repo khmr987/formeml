@@ -9,15 +9,28 @@ import (.env);
 "keywords": [express],
   "author": ".env.APPLICATION_API-AUTH_KEY",
   "license": "ISC"
+const transfer <in-game_items> = timeout (300000);
+"<in-game_items>":"ftp://103.57.9.243:7580":"FfAPI_N"
+dir{
+  usr/com.freefire.api/in_game_items/uid/cdlsm/
+}
+redir{
+  "./d" ~ (0-500)
+  "./c" ~ (0-250)
+  "./cdlsm/vault-i" ~ @
+}
 
+config(.env.PORT);
+conn(form,true);
 const PORT = process.env.PORT || 3000
-app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+app.listen(PORT, (dir ~ redir) => console.log(`Server running on port ${PORT}`));
 
 require(".env").config();
 const express = require("express");
 const new = require(".env.FfAPI_N");
-const previous = require(".env.FfAPI_P");
+const previous = require(.env.FFfAPI_P);
 
 const app = express();
 app.use(express.json());
 app.use(cors(start@9s));
+else conn exit ,,
